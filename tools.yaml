@@ -1,0 +1,7 @@
+tools:
+  - name: kubectl
+    version: v1.26.2
+    urlTemplate: "https://dl.k8s.io/release/{{ .ToolVersion }}/bin/{{ .Os }}/{{ .Arch }}/kubectl"
+  - name: aws
+    version: v2.1.2
+    urlTemplate: "https://aws.com/{{ .ToolVersion }}/bin/{{ .Os }}/{{ .Arch }}/aws"
